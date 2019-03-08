@@ -181,6 +181,7 @@ def load_features(features_fp, sheetname, feature_type,
                         feat["properties"]["sidebar"] = line[12]
                     else:
                         feat["properties"]["sidebar"] = ""
+                    #print(feat["properties"]["sidebar"])
                     feat["properties"]["marker_size"] = capital_types[line[1]]["marker_size"]
                     feat["properties"]["marker_colour"] = capital_types[line[1]]["marker_colour"]
                     feat["properties"]["version"] = version
@@ -207,6 +208,7 @@ def load_features(features_fp, sheetname, feature_type,
                         feat["properties"]["sidebar"] = line[11]
                     else:
                         feat["properties"]["sidebar"] = ""
+                    #print(feat["properties"]["sidebar"])
                     feat["properties"]["version"] = version
                     feat["properties"]["version_date"] = version_date
                 else:
@@ -217,8 +219,8 @@ def load_features(features_fp, sheetname, feature_type,
     return geojson_coll
 
 
-xlsx_fp = "data/Empire structure maps.xlsx"
-kml_fp = "data/empire structure_cities.kml"
+xlsx_fp = "data/Empire_sructure_maps.xlsx"
+kml_fp = "data/empire_structure_cities.kml"
 
 version = "1"
 version_date = str(datetime.datetime.now())
