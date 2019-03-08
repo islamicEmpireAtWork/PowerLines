@@ -138,6 +138,7 @@ def load_features(features_fp, sheetname, feature_type,
     9: notes
     10: marker_size
     11: marker_colour
+    12: sidebar
     
     csv columns for PolyLines:
     0: from_place
@@ -150,6 +151,8 @@ def load_features(features_fp, sheetname, feature_type,
     7: control_type
     8: ref
     9: notes
+    10: line_colour
+    11: sidebar
     """
     
     data = load_xlsx_sheet(features_fp, sheetname)
@@ -174,6 +177,10 @@ def load_features(features_fp, sheetname, feature_type,
                         feat["properties"]["notes"] = line[9]
                     else:
                         feat["properties"]["notes"] = ""
+                    if line[12]:
+                        feat["properties"]["sidebar"] = line[12]
+                    else:
+                        feat["properties"]["sidebar"] = ""
                     feat["properties"]["marker_size"] = capital_types[line[1]]["marker_size"]
                     feat["properties"]["marker_colour"] = capital_types[line[1]]["marker_colour"]
                     feat["properties"]["version"] = version
@@ -196,6 +203,10 @@ def load_features(features_fp, sheetname, feature_type,
                         feat["properties"]["notes"] = line[9]
                     else:
                         feat["properties"]["notes"] = ""
+                    if line[11]:
+                        feat["properties"]["sidebar"] = line[11]
+                    else:
+                        feat["properties"]["sidebar"] = ""
                     feat["properties"]["version"] = version
                     feat["properties"]["version_date"] = version_date
                 else:
