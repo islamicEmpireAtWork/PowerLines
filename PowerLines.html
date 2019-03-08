@@ -92,8 +92,8 @@
         list.innerHTML = "";
         displayed.forEach(function(el){
           var li = document.createElement('li');
-          if (el.feature.properties.notes) { 
-            li.innerHTML = el.feature.properties.name + ": " + el.feature.properties.notes;
+          if (el.feature.properties.sidebar) { 
+            li.innerHTML = el.feature.properties.sidebar;
             list.appendChild(li)
             };
         });
@@ -104,7 +104,7 @@
               {layer.bindPopup(
                   feature.properties.name
                   + '<p>(' + feature.properties.start + ' to ' + feature.properties.end +')</p>'
-                  + '<p>' + feature.properties.notes + '</p>'
+                  + '<p>' + feature.properties.note + '</p>'
                   )
               }
           };
@@ -115,7 +115,7 @@
               {layer.bindPopup(
                   "<h1>" + feature.properties.name + '</h1>' 
                   + '<p>' + feature.properties.capital_type + '</p>'
-                  + '<p>' + feature.properties.notes + '</p>'
+                  + '<p>' + feature.properties.note + '</p>'
                   )
               }
           };
@@ -151,10 +151,10 @@
       );
       pointTimeline.addTo(map);
 
-      linestringTimeline.on('change', function(e){
+      pointTimeline.on('change', function(e){
         updateList(e.target);
         });
-       updateList(linestringTimeline);
+       updateList(pointTimeline);
       
       slider.addTimelines(linestringTimeline, pointTimeline);
     </script>
