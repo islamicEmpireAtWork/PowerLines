@@ -116,3 +116,40 @@
        updateList(pointTimeline);
 
       slider.addTimelines(linestringTimeline, pointTimeline);
+
+/* Open */
+function openNav() {
+document.getElementById("myNav").style.width = "20%";
+}
+
+/* Close */
+function closeNav() {
+document.getElementById("myNav").style.width = "0%";
+closeMenuDivs();
+}
+
+/* Open Mental Maps div */
+function openMMDiv() {
+  document.getElementsByClassName("admin-maps-menu")[0].style.width = "0vw";
+  document.getElementsByClassName("mental-maps-menu")[0].style.width = "150px";
+}
+
+function closeMMDiv() {
+  document.getElementsByClassName("mental-maps-menu")[0].style.width = "0vw";
+}
+
+/* Open Admin Maps div */
+function openAMDiv() {
+  document.getElementsByClassName("mental-maps-menu")[0].style.width = "0vw";
+  document.getElementsByClassName("admin-maps-menu")[0].style.width = "150px";
+}
+
+function closeAMDiv() {
+  document.getElementsByClassName("admin-maps-menu")[0].style.width = "0vw";
+}
+
+/* Close all menus */
+function closeMenuDivs() {
+  document.getElementsByClassName("mental-maps-menu")[0].style.width = "0vw";
+  document.getElementsByClassName("admin-maps-menu")[0].style.width = "0vw";
+}
