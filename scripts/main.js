@@ -5,16 +5,15 @@
       /*
        * Create the map
        */
-      var acwUrl = 'https://{s}.tiles.mapbox.com/v3/mapbox.blue-marble-topo-bathy-jul-bw/{z}/{x}/{y}.png';
-      var acwAttrib = 'Tiles &copy; Mapbox &mdash; Source: USGS, Esri, TANA, DeLorme, and NPS'
-      var acw = L.tileLayer(acwUrl, {
-        maxZoom: 18,
-        attribution: acwAttrib,
-        noWrap: true
-      });
+       var mapboxTiles = L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiaXNhd255dSIsImEiOiJBWEh1dUZZIn0.SiiexWxHHESIegSmW8wedQ', {
+       attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+       maxZoom: 10,
+       id: 'isawnyu.map-knmctlkh',
+       accessToken: 'pk.eyJ1IjoiaXNhd255dSIsImEiOiJBWEh1dUZZIn0.SiiexWxHHESIegSmW8wedQ'
+       });
 
       var map = L.map('map', {
-        layers: [acw],
+        layers: [mapboxTiles],
         center: new L.LatLng(30,55),
         zoom: 4,
         maxBounds: [[90,-180], [-90, 180]]
