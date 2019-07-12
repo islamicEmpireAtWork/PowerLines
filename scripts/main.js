@@ -130,7 +130,7 @@ closeMenuDivs();
 /* Open Mental Maps div */
 function openMMDiv() {
   document.getElementsByClassName("admin-maps-menu")[0].style.width = "0vw";
-  document.getElementsByClassName("mental-maps-menu")[0].style.width = "150px";
+  document.getElementsByClassName("mental-maps-menu")[0].style.width = "auto";
 }
 
 function closeMMDiv() {
@@ -140,7 +140,7 @@ function closeMMDiv() {
 /* Open Admin Maps div */
 function openAMDiv() {
   document.getElementsByClassName("mental-maps-menu")[0].style.width = "0vw";
-  document.getElementsByClassName("admin-maps-menu")[0].style.width = "150px";
+  document.getElementsByClassName("admin-maps-menu")[0].style.width = "auto";
 }
 
 function closeAMDiv() {
