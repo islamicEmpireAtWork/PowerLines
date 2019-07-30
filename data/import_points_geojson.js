@@ -404,7 +404,7 @@ var points = {
         type: "Point"
       },
       properties: {
-        capital_type: "Independent capital",
+        capital_type: "Autonomous Capital",
         end: "738-12-31",
         marker_colour: "black",
         marker_size: 4,
@@ -425,7 +425,7 @@ var points = {
         type: "Point"
       },
       properties: {
-        capital_type: "Independent capital",
+        capital_type: "Autonomous Capital",
         end: "709-12-31",
         marker_colour: "black",
         marker_size: 4,
@@ -447,7 +447,7 @@ var points = {
         type: "Point"
       },
       properties: {
-        capital_type: "Independent capital",
+        capital_type: "Autonomous Capital",
         end: "686-12-31",
         marker_colour: "black",
         marker_size: 4,
@@ -468,7 +468,7 @@ var points = {
         type: "Point"
       },
       properties: {
-        capital_type: "Independent capital",
+        capital_type: "Autonomous Capital",
         end: "929-12-31",
         marker_colour: "black",
         marker_size: 4,
@@ -490,7 +490,7 @@ var points = {
         type: "Point"
       },
       properties: {
-        capital_type: "Independent capital",
+        capital_type: "Autonomous Capital",
         end: "999-12-31",
         marker_colour: "black",
         marker_size: 4,
@@ -512,7 +512,7 @@ var points = {
         type: "Point"
       },
       properties: {
-        capital_type: "Independent capital",
+        capital_type: "Autonomous Capital",
         end: "808-12-31",
         marker_colour: "black",
         marker_size: 4,
@@ -535,7 +535,7 @@ var points = {
         type: "Point"
       },
       properties: {
-        capital_type: "Independent capital",
+        capital_type: "Autonomous Capital",
         end: "836-12-31",
         marker_colour: "black",
         marker_size: 4,
@@ -557,7 +557,7 @@ var points = {
         type: "Point"
       },
       properties: {
-        capital_type: "Independent capital",
+        capital_type: "Autonomous Capital",
         end: "999-12-31",
         marker_colour: "black",
         marker_size: 4,
@@ -579,7 +579,7 @@ var points = {
         type: "Point"
       },
       properties: {
-        capital_type: "Independent capital",
+        capital_type: "Autonomous Capital",
         end: "996-12-31",
         marker_colour: "black",
         marker_size: 4,
@@ -601,7 +601,7 @@ var points = {
         type: "Point"
       },
       properties: {
-        capital_type: "Independent capital",
+        capital_type: "Autonomous Capital",
         end: "875-12-31",
         marker_colour: "black",
         marker_size: 4,
@@ -623,7 +623,7 @@ var points = {
         type: "Point"
       },
       properties: {
-        capital_type: "Independent capital",
+        capital_type: "Autonomous Capital",
         end: "891-12-31",
         marker_colour: "black",
         marker_size: 4,
@@ -645,7 +645,7 @@ var points = {
         type: "Point"
       },
       properties: {
-        capital_type: "Independent capital",
+        capital_type: "Autonomous Capital",
         end: "878-12-31",
         marker_colour: "black",
         marker_size: 4,
@@ -667,7 +667,7 @@ var points = {
         type: "Point"
       },
       properties: {
-        capital_type: "Independent capital",
+        capital_type: "Autonomous Capital",
         end: "910-12-31",
         marker_colour: "black",
         marker_size: 4,
@@ -689,7 +689,7 @@ var points = {
         type: "Point"
       },
       properties: {
-        capital_type: "Independent capital",
+        capital_type: "Autonomous Capital",
         end: "889-12-31",
         marker_colour: "black",
         marker_size: 4,
@@ -711,7 +711,7 @@ var points = {
         type: "Point"
       },
       properties: {
-        capital_type: "Independent capital",
+        capital_type: "Autonomous Capital",
         end: "928-12-31",
         marker_colour: "black",
         marker_size: 4,
@@ -733,7 +733,7 @@ var points = {
         type: "Point"
       },
       properties: {
-        capital_type: "Independent capital",
+        capital_type: "Autonomous Capital",
         end: "998-12-31",
         marker_colour: "black",
         marker_size: 4,
@@ -756,7 +756,7 @@ var points = {
         type: "Point"
       },
       properties: {
-        capital_type: "Independent capital",
+        capital_type: "Autonomous Capital",
         end: "928-12-31",
         marker_colour: "black",
         marker_size: 4,
@@ -778,7 +778,7 @@ var points = {
         type: "Point"
       },
       properties: {
-        capital_type: "Independent capital",
+        capital_type: "Autonomous Capital",
         end: "999-12-31",
         marker_colour: "black",
         marker_size: 4,
@@ -800,7 +800,7 @@ var points = {
         type: "Point"
       },
       properties: {
-        capital_type: "Independent capital",
+        capital_type: "Autonomous Capital",
         end: "929-12-31",
         marker_colour: "black",
         marker_size: 4,
@@ -821,7 +821,7 @@ var points = {
         type: "Point"
       },
       properties: {
-        capital_type: "Independent capital",
+        capital_type: "Autonomous Capital",
         end: "999-12-31",
         marker_colour: "black",
         marker_size: 4,
@@ -842,7 +842,7 @@ var points = {
         type: "Point"
       },
       properties: {
-        capital_type: "Independent capital",
+        capital_type: "Autonomous Capital",
         end: "968-12-31",
         marker_colour: "black",
         marker_size: 4,
@@ -864,7 +864,7 @@ var points = {
         type: "Point"
       },
       properties: {
-        capital_type: "Independent capital",
+        capital_type: "Autonomous Capital",
         end: "999-12-31",
         marker_colour: "black",
         marker_size: 4,
@@ -886,7 +886,7 @@ var points = {
         type: "Point"
       },
       properties: {
-        capital_type: "Independent capital",
+        capital_type: "Autonomous Capital",
         end: "999-12-31",
         marker_colour: "black",
         marker_size: 4,
@@ -907,7 +907,7 @@ var points = {
         type: "Point"
       },
       properties: {
-        capital_type: "Independent capital",
+        capital_type: "Autonomous Capital",
         end: "960-12-31",
         marker_colour: "black",
         marker_size: 4,
@@ -928,7 +928,7 @@ var points = {
         type: "Point"
       },
       properties: {
-        capital_type: "Independent capital",
+        capital_type: "Autonomous Capital",
         end: "999-12-31",
         marker_colour: "black",
         marker_size: 4,
@@ -951,7 +951,7 @@ var points = {
         type: "Point"
       },
       properties: {
-        capital_type: "Independent capital",
+        capital_type: "Autonomous Capital",
         end: "934-12-31",
         marker_colour: "black",
         marker_size: 4,
@@ -972,7 +972,7 @@ var points = {
         type: "Point"
       },
       properties: {
-        capital_type: "Independent capital",
+        capital_type: "Autonomous Capital",
         end: "999-12-31",
         marker_colour: "black",
         marker_size: 4,
@@ -993,7 +993,7 @@ var points = {
         type: "Point"
       },
       properties: {
-        capital_type: "Independent capital",
+        capital_type: "Autonomous Capital",
         end: "942-12-31",
         marker_colour: "black",
         marker_size: 4,
@@ -1014,7 +1014,7 @@ var points = {
         type: "Point"
       },
       properties: {
-        capital_type: "Independent capital",
+        capital_type: "Autonomous Capital",
         end: "999-12-31",
         marker_colour: "black",
         marker_size: 4,
@@ -1035,7 +1035,7 @@ var points = {
         type: "Point"
       },
       properties: {
-        capital_type: "Independent capital",
+        capital_type: "Autonomous Capital",
         end: "961-12-31",
         marker_colour: "black",
         marker_size: 4,
@@ -1058,7 +1058,7 @@ var points = {
         type: "Point"
       },
       properties: {
-        capital_type: "Independent capital",
+        capital_type: "Autonomous Capital",
         end: "999-12-31",
         marker_colour: "black",
         marker_size: 4,
@@ -1080,7 +1080,7 @@ var points = {
         type: "Point"
       },
       properties: {
-        capital_type: "Independent capital",
+        capital_type: "Autonomous Capital",
         end: "999-12-31",
         marker_colour: "black",
         marker_size: 4,
@@ -1101,7 +1101,7 @@ var points = {
         type: "Point"
       },
       properties: {
-        capital_type: "Independent capital",
+        capital_type: "Autonomous Capital",
         end: "966-12-31",
         marker_colour: "black",
         marker_size: 4,
@@ -1124,7 +1124,7 @@ var points = {
         type: "Point"
       },
       properties: {
-        capital_type: "Independent capital",
+        capital_type: "Autonomous Capital",
         end: "999-12-31",
         marker_colour: "black",
         marker_size: 4,
@@ -1146,7 +1146,7 @@ var points = {
         type: "Point"
       },
       properties: {
-        capital_type: "Independent capital",
+        capital_type: "Autonomous Capital",
         end: "999-12-31",
         marker_colour: "black",
         marker_size: 4,
@@ -1167,7 +1167,7 @@ var points = {
         type: "Point"
       },
       properties: {
-        capital_type: "Independent capital",
+        capital_type: "Autonomous Capital",
         end: "999-12-31",
         marker_colour: "black",
         marker_size: 4,
